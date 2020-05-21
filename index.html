@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/resourses/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/resourses/css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>AcolyteHelp</title>
+</head>
+
+<body>
+    <header>
+        <div class="left-panel">
+            <!-- <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div> -->
+            <button>Задачи</button>
+            <button>Меню</button>
+            <button>Союзники</button>
+            <button>Общение</button>
+        </div>
+        <div class="col center">
+            <div class="globus"></div>
+        </div>
+        <div class="right-panel">
+            <div class="col gold"><p>140</p></div>
+            <div class="col lumber"><p>50</p></div>
+            <div class="col supply"><p>13 / 20</p></div>
+            <div class="col costs"><p>Нет расходов</p></div>
+        </div>
+    </header>
+    <main>
+        <h1>Прислужник 1.0</h1>
+        <h2>Чего желает мой Повелитель?</h2>
+        <section id="app">
+            <div class="dreadlord">
+                <div class="info-plate">
+                    <figure>
+                        <img src="./resourses/img/dreadlord.gif" alt="">
+                        <figcaption>Повелитель ужаса</figcaption>
+                        <div class="hp"><p>850 / 850</p></div>
+                        <div class="mp"><p>420 / 420</p></div>
+                        <figcaption>Уровень 7</figcaption>
+                    </figure>
+                </div>
+                <div class="speech">
+                    <h3>Вы командуете:</h3>
+                    <p id="dreadlord-speech">— Прислужник, нам нужно больше золота!</p>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <!-- <a href="" class="button">+</a>
+                <a href="" class="button">+</a>
+                <a href="" class="button">+</a>
+                <a href="" class="button">+</a>
+                <a href="" class="button">+</a> -->
+                <button id="even"></button>
+                <button id="ball"></button>
+                <button>+</button>
+                <button>+</button>
+                <button>+</button>
+            </div>
+
+            <div class="acolyte">
+                <div class="speech">
+                    <h3>Прислужник отвечает:</h3>
+                    <p id="acolyte-speech">— Да, Хозяин!</p>
+                </div>
+                <div class="info-plate">
+                    <figure>
+                        <img src="./resourses/img/acolyte-mirr.png" alt="">
+                        <figcaption>Послушник</figcaption>
+                        <div class="hp">220 / 220</div>
+                        <figcaption>Уровень 1</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <script src="/acolyte.js"></script>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

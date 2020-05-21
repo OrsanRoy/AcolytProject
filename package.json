@@ -1,0 +1,12 @@
+{
+  "name": "acolyteprj",
+  "version": "1.0.0",
+  "description": "Acolyte Pet-project",
+  "main": "acolyte.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
